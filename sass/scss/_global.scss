@@ -1,0 +1,181 @@
+/* GENERALES */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.body{
+  background-color: $bg-color-body;
+}
+.header-top{
+  background-color: $bg-color-header-top;
+  height: 30px;
+  border-bottom: $border-bottom-header-top;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: $font-general-text;
+  font-weight: bolder;
+  li {
+    list-style: none;
+      a {
+        padding: 5px;
+        color: black;
+      }
+  }
+}
+
+.contact-top li a{
+  margin-top: 5px;
+}
+/* HEADER */
+/* Header-top */
+.header-top{
+  cursor: pointer;
+  font-weight: bolder;
+    li{
+      list-style: none;
+        a {
+          padding: 5px;
+          color: black;
+          margin-top: 5px;
+        }
+    }
+}
+
+.fa-phone-alt{
+  padding-right: 3px;
+}
+.fa-whatsapp{
+  padding-right: 3px;
+}
+.fa-envelope{
+  padding-right: 3px;
+}
+
+/* Header-main */
+/* Nav-bar */
+h1{
+  font-weight: 900;
+  display: block;
+  margin-left: 50px;
+
+}
+.header-main{
+  background-color:$bg-color-header-main;
+  height: 130px;
+
+  .header-title{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: $font-general-text;
+    color: $font-color-header-title;
+    font-weight: 700;
+  }
+}
+.img-fluid{
+  margin-top: 15px;
+}
+
+.navbar-light {
+  .navbar-nav{
+    .active{
+      .nav-link{
+        color: rgb(240, 235, 240);
+      }
+    }
+  }
+}
+.navbar-light .navbar-nav .nav-link{
+  color: $nav-link-color;
+}
+.navbar .navbar-collapse .nav.item{
+  display: flex;
+  flex-direction: row;
+  justify-items: end;
+}
+
+nav ul li{
+  font-family: $font-general-text;
+  font-style: normal;
+  font-size: 15px;
+}
+/* Fin del header */
+
+
+/* SECCIÓN: 1.INICIO  */
+/* Recuadros de texto */
+.box-text{
+  margin: 0 auto;
+  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.div-content{
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+  padding: 5px;
+}
+.titulo {
+  font-size: 18px;
+  padding: 10px;
+      .texto{
+    font-style: $font-general-text;
+    font-size: 15px;
+    }
+}
+
+h4 {
+  text-align: center;
+}
+.div-content p{
+  text-align: center;
+}
+
+/* SECCION: NOSOTROS */
+.nosotros{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.intro{
+  font-family: $font-general-text;
+  margin-top: 80px;
+}
+.titulo-nosotros{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 20px auto;
+  text-decoration: underline black;
+}
+.texto-nosotros{
+  text-align: center;
+  padding: 10px;
+}
+.site-img{
+  align-items: flex-start;
+}
+
+/* SECCION: ILUMINACIÓN - INTERIOR */
+.hide-bullets {
+  list-style:none;
+  margin-left: -40px;
+  margin-top:20px;
+}
+.thumbnail {
+  padding: 0;
+}
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+  max-width: 100%;
+}
+
+/* CONTACTO */
+.contactForm{
+  color: black;
+  font-family: $font-general-text;
+  font-style: inherit;
+  font-size: 15px;
+}

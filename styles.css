@@ -1,0 +1,267 @@
+/* GENERALES */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #EBEBEB;
+}
+
+/* HEADER */
+/* Header-top */
+.header-top{
+    background-color:#DEB841;
+    height: 30px;
+    border-bottom: solid 3px #6D6A75;
+    font-size: 12px;
+    cursor: pointer;
+    font-family:'Rajdhani', sans-serif;
+    font-weight: bolder;
+}
+.header-top li {
+    list-style: none;
+}
+.header-top li a{
+    padding: 5px;
+    color: black;
+}
+.contact-top li a{
+    margin-top: 5px;
+}
+.fa-phone-alt{
+    padding-right: 3px;
+}
+.fa-whatsapp{
+    padding-right: 3px;
+}
+.fa-envelope{
+    padding-right: 3px;
+}
+
+/* Header-main */
+/* Nav-bar */
+h1{
+    font-weight: 900;
+    display: block;
+    margin-left: 50px;
+
+}
+.header-main{
+    background-color: #37323E;
+    height: 130px;
+}
+.img-fluid{
+    margin-top: 15px;
+}
+.header-title{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .active .nav-link{
+    color: rgb(240, 235, 240);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(240, 235, 240);
+}
+.navbar .navbar-collapse .nav.item{
+    display: flex;
+    flex-direction: row;
+    justify-items: end;
+}
+
+nav ul li{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+/* Fin del header */
+ 
+
+/* SECCIÓN: 1.INICIO  */
+
+/* 1.Slider */
+#carouselExampleIndicators{
+    width: 100 auto;
+    margin: 0 auto;
+    height: 50px auto;
+    position: relative;
+  }
+/* Recuadros de texto */
+.box-text{
+    margin: 0 auto;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.iconbox1 img
+
+.div-content{
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    padding: 5px;
+}
+.titulo .texto{
+    font-style: normal;
+}
+.titulo{
+    font-size: 18px;
+    padding: 10px;
+}
+.texto{
+    font-size: 15px;
+}
+h4 {
+    text-align: center;
+}
+.div-content p{
+    text-align: center;
+}
+
+/* SECCION: NOSOTROS */
+.nosotros{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.intro{
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 80px;
+}
+.titulo-nosotros{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px auto;
+    text-decoration: underline black;
+}
+.texto-nosotros{
+    text-align: center;
+    padding: 10px;
+}
+.site-img{
+    align-items: flex-start;
+}
+/* SECCION: MAT- ELECTRICOS */
+.grid-wrapper-electricos{
+    width: 70%; /* para centrar el contenido de las imagenes y que quede espacio en ambos costados */
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 300px);
+    grid-gap: 15px 15px;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: space-around;
+}
+.grid-wrapper-electricos img{
+    max-height: 300px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+/* SECCION: ILUMINACION */
+.wrapper-ilu{
+    width: 70%;
+    display: block;
+    justify-content: space-around;
+}
+.ilu-img img{
+    align-content: space-around;
+    max-height: 300px;
+    padding: 20px;
+}
+
+.wrapper-ilu a {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+/* SECCION: ILUMINACIÓN - INTERIOR */
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+.thumbnail {
+    padding: 0;
+}
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    max-width: 100%;
+}
+
+
+/* FOOTER */
+footer{
+    background-color:#E3B23C;
+    width: 100%;
+    height: 200px;
+    display: block;
+    justify-content: space-around;
+    border-top: solid 3px #D3960D;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+}
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.contacto{
+    color: black;
+    font-size: 15px;
+    text-align: left;
+}
+.titulo-contactenos{
+    font-weight: bolder;
+    padding: 5px;
+}
+.horarios{
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    text-align: left;
+}
+.titulo-horarios{
+    font-weight: bolder;
+    padding: 5px;
+}
+.redes{
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+
+
+.quienesTexto{
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: inherit;
+    font-size: 18px;
+}
+
+
+/* CONTACTO */
+.contactForm{
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: inherit;
+    font-size: 15px;
+}

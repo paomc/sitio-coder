@@ -1,0 +1,8 @@
+//* INICIO: CARDS */
+@mixin header-top ($bg-color-header-top,$font-general-text, $border-bottom-header-top) {
+    background-color: $bg-color-header-top;
+    font-family: $font-general-text;
+    border-bottom: $border-bottom-header-top;
+    height:30px;
+}
+

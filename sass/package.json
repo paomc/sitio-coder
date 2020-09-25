@@ -1,0 +1,33 @@
+{
+  "author": "Nombre e Email",
+  "bugs": "",
+  "config": {
+    "public": "",
+    "source": ""
+  },
+  "description": "Descripcion de mi Package",
+  "keywords": [],
+  "license": "MIT",
+  "name": "sas",
+  "repository": {
+    "type":"",
+    "url": "" 
+  },
+  "scripts": {
+    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+    "build:all": "npm run build:css && npm run build:js",
+    "build:js": "npm run js", 
+    "build:css": "npm run css && npm run css-autoprefixer",
+    "css": "cross-var node-sass --importer node_modules/node-sass-glob-importer/dist/cli.js --output-style compressed scss/estilos.scss css/main.css",
+    "css-autoprefixer": "cross-var \"postcss -sourceMap false -u autoprefixer -r $npm_package_config_public/css/*\"",
+    "js": "cross-var uglifyjs $npm_package_config_source/js/"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "autoprefixer": "^9.7.1",
+    "cross-var": "^1.1.0",
+    "node-sass": "^4.14.1",
+    "node-sass-glob-importer": "^5.3.2",
+    "postcss-cli": "^6.1.3"
+  }
+}
